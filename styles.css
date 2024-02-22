@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Set default font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+
+.container {
+    width: 80%; /* Set container width */
+    margin: 0 auto; /* Center container */
+}
+
+/* Header styles */
+header {
+    background-color: #ff5c5c; /* Header background color */
+    color: white; /* Header text color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+    text-align: left; /* Center align text */
+}
+header h1 {
+    font-size: 80px; /* Increase font size for your name */
+}
+header p {
+    margin-top: 20px; /* Add margin at the top */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    font-size: 18px; /* Increase font size */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    color: blue; /* Change link color */
+
+    text-align: center; /* Center align text */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add margin between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #f2f2f2; /* Background color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+}
+
+.project {
+    background-color: white; /* Project background color */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border-radius: 5px; /* Add border radius */
+}
+
+.project img {
+    width: 50%; /* Make images responsive */
+    border-radius: 5px; /* Add border radius to images */
+}
+
+/* Education section styles */
+#education {
+    background-color: #be6007; /* Background color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+}
+
+.education-item {
+    background-color: rgb(133, 61, 201); /* Item background color */
+    padding: 20px; /* Add padding */
+    margin-bottom: 20px; /* Add margin at the bottom */
+    border-radius: 5px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
+
+.education-item h3 {
+    margin-top: 0; /* Remove margin at the top for better spacing */
+    text-decoration: underline; /* Add underline to headings */
+}
+
+.education-item p {
+    margin: 10px 0; /* Add margin to separate content */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
+
+.education-item ul {
+    margin-top: 10px; /* Add margin at the top of the list */
+    padding-left: 20px; /* Indent the list items */
+}
+
+.education-item ul li {
+    list-style-type: disc; /* Use disc bullets for list items */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add text shadow */
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #a10303; /* Background color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+}
+
+.skills-list {
+    margin-bottom: 30px; /* Add margin at the bottom */
+}
+
+.skills-list ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+}
+
+/* Contact section styles */
+#contact {
+    background-color: purple; /* Background color */
+    color: white; /* Text color */
+    padding: 50px 0; /* Add padding to the top and bottom */
+}
+
+.contact-info {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute items evenly */
+}
+
+.contact-details,
+.contact-form {
+    flex: 1; /* Each section takes up equal space */
+}
+
+.contact-details p {
+    margin: 10px 0; /* Add margin to separate contact details */
+}
+
+.contact-form label {
+    display: block; /* Display labels as blocks for better spacing */
+    margin-bottom: 10px; /* Add margin below labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+}
+
+.contact-form button {
+    padding: 10px 20px; /* Add padding */
+    background-color: #ff5c5c; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.contact-form button:hover {
+    background-color: #e60000; /* Darker background color on hover */
+}

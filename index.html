@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Atale - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-rZ70FJXBRD8i3+5JeKv7ZXAy/2CdBfUGfylRvIWLj8Q9pH5P5E6kjC3ji4qumh6v" crossorigin="anonymous">
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <div class="container">
+            <h1>Shivam Atale</h1>
+            <p><h2>"Hello, I'm Shivam Atale, a budding enthusiast eager to delve into the realm of technology and innovation. As a fresher in the field of Computer Science, currently pursuing my degree at Ramamnad Arya D.A.V College, I bring a fresh perspective and a hunger to learn. My journey into the world of programming has just begun, and I am excited to explore various facets such as data structures, web development, and machine learning. Beyond academics, I am a proactive problem-solver, constantly seeking opportunities to apply my knowledge and hone my skills. While I am new to the industry, I am determined to make a meaningful impact and contribute positively to the ever-evolving landscape of technology."</h2></p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="{{ url_for('static', filename='facemask.jpg') }}" alt="Project 1">
+                <h3>Face Mask Detection</h3>
+                <p>This project is about detecting individuals wearing face masks or using machine learning.</p>
+                <p><a href="https://github.com/sammyatale/facemask">facemask Repository</a></p> <!-- Replace with your actual project repository URL -->
+
+            </div>
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="{{ url_for('static', filename='RPS.jpg') }}" alt="Project 2">
+                <h3>Rock-paper-Scissors</h3>
+                <p>This project is about the rock-paper-scissors game system using Python.</p>
+                <p><a href="https://github.com/sammyatale/Rock-Paper-Scissors">RPS Repository</a></p>
+            </div>
+
+            <div class="project">
+                <img src="{{ url_for('static', filename='number.jpg') }}" alt="Project 3">
+                <h3>Number Game</h3>
+                <p>This project is about the Number game system using Python.</p>
+                <p><a href="https://github.com/sammyatale/Number-Game">Number Repository</a></p>
+            </div>
+
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Ramamnad Arya D.A.V College</h3>
+                <p>Bachelor of Science in Computer Science</p>
+                <p>Final Year (2019 - Present)</p>
+                <p>GPA: 3.8 (on a 4.0 scale)</p>
+                <p>Relevant Coursework:
+                    <ul>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Database Management Systems</li>
+                        <li>Web Development</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="education-item">
+                <h3>K.J Somaiya College of Science and Commerce</h3>
+                <p>Higher Secondary Certificate (HSC)</p>
+                <p>(2018 - 2020)</p>
+                <p>Marks: 55%</p>
+            </div>
+            <div class="education-item">
+                <h3>Shivaji Vidyalaya</h3>
+                <p>Secondary School Certificate (SSC)</p>
+                <p>(2018)</p>
+                <p>Marks: 80%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <h3>Technical Skills</h3>
+                <ul>
+                    <li><i class="fas fa-code"></i> Programming Languages: Python, Java, C++</li>
+                    <li><i class="fas fa-laptop-code"></i> Web Technologies: HTML, CSS, Flask, Django</li>
+                    <li><i class="fas fa-database"></i> Database Technologies: SQL</li>
+                    <li><i class="fas fa-code-branch"></i> Version Control: Git, GitHub</li>
+                    <li><i class="fas fa-cogs"></i> Frameworks: Flask, Django</li>
+                    <li><i class="fab fa-windows"></i><i class="fab fa-linux"></i> Operating Systems: Windows, Linux</li>
+                    <li><i class="fas fa-edit"></i> IDEs/Editors: Visual Studio Code, PyCharm, Eclipse</li>
+                </ul>
+            </div>
+            <div class="skills-list">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><i class="fas fa-comments"></i> Communication</li>
+                    <li><i class="fas fa-brain"></i> Problem-solving</li>
+                    <li><i class="fas fa-users"></i> Teamwork</li>
+                    <li><i class="fas fa-clock"></i> Time Management</li>
+                    <li><i class="fas fa-undo-alt"></i> Adaptability</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <div class="contact-details">
+                    <h3>Contact Information</h3>
+                    <p>Email: shivamatale2002@.com</p>
+                    <p>Phone: 9326267032</p>
+                    <p>Location: Mumbai, Maharashtra, India</p>
+                    <p><a href="https://github.com/sammyatale">GitHub Profile</a></p> <!-- Replace with your Twitter profile URL -->
+                    <p><a href="https://www.linkedin.com/in/your-linkedin-profile">LinkedIn Profile</a></p> <!-- Replace with your LinkedIn profile URL -->
+                    <p><a href="https://twitter.com/your-twitter-profile">Twitter Profile</a></p> <!-- Replace with your Twitter profile URL -->
+                    <!-- Add more social media profiles similarly -->
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="/submit_form" method="post">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Shivam Atale - Portfolio</p>
+        </div>
+    </footer>
+</body>
+</html>
